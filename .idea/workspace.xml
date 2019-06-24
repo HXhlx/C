@@ -33,8 +33,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc457ab5-e6f8-4da6-a8cd-c65c673d0511" name="Default Changelist" comment="c project for set">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="fc457ab5-e6f8-4da6-a8cd-c65c673d0511" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/C.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/C.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C.exe" afterDir="false" />
@@ -55,9 +54,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/set.c" beforeDir="false" afterPath="$PROJECT_DIR$/set.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/set.h" beforeDir="false" afterPath="$PROJECT_DIR$/set.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/useset.c" beforeDir="false" afterPath="$PROJECT_DIR$/useset.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,11 +68,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/useset.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="162">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -93,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/set.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="558">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -120,9 +116,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/useset.c" />
         <option value="$PROJECT_DIR$/set.h" />
         <option value="$PROJECT_DIR$/set.c" />
+        <option value="$PROJECT_DIR$/useset.c" />
       </list>
     </option>
   </component>
@@ -210,7 +206,7 @@
       <workItem from="1561217669736" duration="867000" />
       <workItem from="1561265798011" duration="5245000" />
       <workItem from="1561290048814" duration="4707000" />
-      <workItem from="1561361593889" duration="1340000" />
+      <workItem from="1561361593889" duration="1589000" />
     </task>
     <task id="LOCAL-00001" summary="c project for set">
       <created>1561218224369</created>
@@ -226,11 +222,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561218279267</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="end">
+      <created>1561363063794</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561363063794</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13599000" />
+    <option name="totallyTimeSpent" value="13848000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -250,16 +253,16 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.494705" weight="0.3279483" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49167928" visible="true" weight="0.3990307" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" visible="true" weight="0.3279483" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49167928" weight="0.3990307" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956383" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="TeamCity" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.48865354" weight="0.3602585" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.48789713" weight="0.3602585" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50832075" side_tool="true" visible="true" weight="0.3990307" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5060514" side_tool="true" visible="true" weight="0.3279483" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32903227" />
       <window_info anchor="bottom" id="CMake" order="13" weight="0.29886913" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -274,18 +277,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="c project for set" />
-    <option name="LAST_COMMIT_MESSAGE" value="c project for set" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/set.c</url>
-          <line>66</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="end" />
+    <option name="LAST_COMMIT_MESSAGE" value="end" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.c" />
@@ -304,20 +297,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/useset.c">
+    <entry file="file://$PROJECT_DIR$/set.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="558">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/set.c">
+    <entry file="file://$PROJECT_DIR$/useset.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="162">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
