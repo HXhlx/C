@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-E:/C/set.h
-
-E:/C/useset.c
+E:/C/set.c
+ctype.h
+-
 stdio.h
 -
+stdlib.h
+-
 set.h
+E:/C/set.h
+
 E:/C/set.h
 
