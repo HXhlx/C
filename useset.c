@@ -1,54 +1,61 @@
 #include <stdio.h>
-#include <malloc.h>
+#include <stdlib.h>
 #include "set.h"
 
 struct set *create(int flag) {
     char ch[2] = {'A', 'B'};
-    printf("(°´0ÍË³ö)%c=", ch[flag - 1]);
+    printf("(æŒ‰0é€€å‡º)%c=", ch[flag - 1]);
     struct set *S = create_set();
-    printf("´´½¨³É¹¦,%c=", ch[flag - 1]);
+    printf("åˆ›å»ºæˆåŠŸ,%c=", ch[flag - 1]);
     print(S->next);
-    putchar('\n');
     return S;
 }
 
 int main() {
-    char ch;
-    int data, flag;
-    struct set *A, *B, *C, *D, *E, a, b;
-    unsigned change = 1;
+    struct set *A = NULL, *B = NULL, *C = NULL, *D = NULL, *E = NULL;
+    int change = 1;
     do {
         switch (change) {
             case 1:
+                if (C) { free_set(C); C = NULL; }
+                if (D) { free_set(D); D = NULL; }
+                if (E) { free_set(E); E = NULL; }
+                if (A) { free_set(A); A = NULL; }
+                if (B) { free_set(B); B = NULL; }
                 A = create(1);
                 B = create(2);
                 break;
             case 2:
+                if (C) { free_set(C); C = NULL; }
                 C = intersection(A, B);
                 printf("C=");
                 print(C->next);
-                putchar('\n');
                 break;
             case 3:
+                if (D) { free_set(D); D = NULL; }
                 D = union_set(A, B);
                 printf("D=");
                 print(D->next);
-                putchar('\n');
                 break;
             case 4:
+                if (E) { free_set(E); E = NULL; }
                 E = difference_set(A, B);
                 printf("E=");
                 print(E->next);
-                putchar('\n');
                 break;
             default:
-                printf("ĞÂ¹¦ÄÜ¿ª·¢ÖĞ,¾´ÇëÆÚ´ı!");
+                printf("æ–°åŠŸèƒ½å¼€å‘ä¸­,æ•¬è¯·æœŸå¾…!");
                 break;
         }
-        printf("------------ÇëÑ¡Ôñ¹¦ÄÜ-------------\n"
-               "1.ĞÂ½¨¼¯ºÏÔªËØ  2.Çó¼¯ºÏA,BµÄ½»\n"
-               "3.Çó¼¯ºÏA,BµÄ²¢ 4.Çó¼¯ºÏA,BµÄ¶Ô³Æ²î\n"
-               "q.ÍË³ö\n");
+        printf("------------è¯·é€‰æ‹©åŠŸèƒ½-------------\n"
+               "1.æ–°å»ºé›†åˆå…ƒç´   2.æ±‚é›†åˆA,Bçš„äº¤\n"
+               "3.æ±‚é›†åˆA,Bçš„å¹¶ 4.æ±‚é›†åˆA,Bçš„å¯¹ç§°å·®\n"
+               "q.é€€å‡º\n");
     } while (scanf("%d", &change));
+    free_set(A);
+    free_set(B);
+    free_set(C);
+    free_set(D);
+    free_set(E);
     return 0;
 }
